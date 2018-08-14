@@ -21,6 +21,7 @@ files = os.listdir(path)
 i = 1
 
 for file in files:
+    #changes the names of the different pictures and transform them to .jpg
     os.rename(os.path.join(path, file), os.path.join(path, str(np.random.randint(2000000))+'.jpg'))
     i = i+1
     print(str(np.random.randint(2000000)))
