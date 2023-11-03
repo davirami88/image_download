@@ -8,7 +8,7 @@ from icrawler.builtin import GoogleImageCrawler
 import numpy as np
 import os
 
-path = 'C:/Path/to/Save/Photos/'
+path = 'Path/to/Save/Photos/'
 keyword='your query to search images'
 
 google_crawler = GoogleImageCrawler(parser_threads=50, downloader_threads=500,
